@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Details Page</title>
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="assets/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="other position-relative">
+      <div class="container transparent position-absolute">
+        <div class="row main_link py-3">
+          <div
+            class="col-lg-1 col-md-3 col-3 d-lg-none dl-block d-flex align-items-center pl-4"
+          >
+            <nav id="main-nav">
+              <ul>
+                <li>
+                  <a href="">Home+</a>
+                  <ul>
+                    <li><a href="index.html">Home style 1</a></li>
+                    <li><a href="#">Home style 2</a></li>
+                    <li><a href="#">Home style 3</a></li>
+                  </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                  <a href="#">Pages+</a>
+                  <ul>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="team_detail.html">Team Details</a></li>
+                    <li><a href="not_found.html">404</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Service+</a>
+                  <ul>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="service_details.html">Service Details</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Project+</a>
+                  <ul>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="project_details.html">Project Details</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Blog+</a>
+                  <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="blog_details.html">Blog Details</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div
+            class="col-lg-2 col-md-6 col-6 d-flex align-content-center justify-content-center flex-wrap pl-4"
+          >
+            <div class="logo">
+              <img src="assets/img/footer-logo.png" alt="Logo" />
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-1 col-1 d-flex justify-content-end">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown pr-2">
+                    <a
+                      class="nav-link navbar_text main_link"
+                      href="#"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Home+
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="index.html"
+                        >Home style 1</a
+                      >
+                      <a class="dropdown-item" href="#">Home style 2</a>
+                      <a class="dropdown-item" href="#">Home style 3</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown short-nav pr-2">
+                    <a class="nav-link navbar_text" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown pr-2">
+                    <a
+                      class="nav-link navbar_text"
+                      href="#"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Pages+
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Pricing</a>
+                      <a class="dropdown-item" href="schedule.html">Schedule</a>
+                      <a class="dropdown-item" href="team.html">Team</a>
+                      <a class="dropdown-item" href="team_detail.html"
+                        >Team Details</a
+                      >
+                      <a class="dropdown-item" href="not_found.html">404</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown pr-2">
+                    <a
+                      class="nav-link navbar_text"
+                      href="#"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Service+
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="service.html">Service</a>
+                      <a class="dropdown-item" href="service_details.html"
+                        >Service Details</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown pr-2">
+                    <a
+                      class="nav-link navbar_text"
+                      href="#"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Project+
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="project.html">Project</a>
+                      <a class="dropdown-item" href="project_details.html"
+                        >Project Details</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown active pr-2">
+                    <a
+                      class="nav-link navbar_text"
+                      href="#"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      Blog+
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="blog.html">Blog</a>
+                      <a class="dropdown-item" href="blog_details.html"
+                        >Blog Details</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown pr-2 d-flex">
+                    <a class="nav-link navbar_text" href="contact.html">
+                      Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div
+            class="col-lg-3 col-md-2 col-2 d-flex justify-content-between align-items-center"
+          >
+            <div class="buttons">
+              <div class="search">
+                <button
+                  type="button"
+                  class="btn rounded-circle search_button d-none d-md-block"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <div class="cart pr-2">
+                <button
+                  type="button"
+                  class="btn position-relative d-none d-md-block"
+                >
+                  <i class="fa-solid fa-cart-shopping"> </i>
+                  <span
+                    class="badge rounded-pill badge-notification bgcolor_pink position-absolute p-1"
+                    >02</span
+                  >
+                </button>
+              </div>
+              <div class="contact_button pr-2">
+                <a
+                  href="#"
+                  class="btn pink_button position-relative d-none d-lg-block"
+                >
+                  <span class="pink_dot"> </span>
+                  Contact Us</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="big_img d-flex position-relative align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+            <div class="doc position-absolute d-none d-md-block">
+              <img src="assets/img/shape02.png" alt="" />
+            </div>
+            <div class="stet position-absolute d-none d-md-block">
+              <img src="assets/img/shape03.png" alt="" />
+            </div>
+            <div class="main_content">
+              <h1>Blog Details Page</h1>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb d-flex justify-content-center">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Blog Details Page
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog_details">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-12 col-12">
+            <div class="img-container">
+              <img src="assets/img/blog-bg.jpg" alt="" />
+            </div>
+            <div class="img-info d-flex">
+              <p class="sm-info">
+                <span><i class="fa-solid fa-user"></i></span>
+                Mediba
+              </p>
+              <p class="sm-info">
+                <span><i class="fa-regular fa-calendar-days"></i></span>
+                Mar ,10, 2023
+              </p>
+            </div>
+            <p class="detail-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page is when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using ique maiestatis sum
+              quod sum ut alienum nec et to summo possim persequeris vix mea.
+              Adhuc quodsi qui, sit no tale essent electramei sum sums rodesset
+              in pro, quo scripta feugait vidisse. Lorem ipsum dolor sit amet,
+              eu duo ferri labor dicat Mea ex modo reque senserit, et sed hinc
+              dolor, scaevola sum salutandi expetendis vix ne his quod mundi
+              consequat sum. There are not many of passages of lorem
+            </p>
+            <p class="detail-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page is when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters,
+            </p>
+            <div class="founder-card">
+              <p class="founder-text">
+                <span><i class="fa-solid fa-quote-right"></i></span>
+                Wesay are many variations of passages of Lorem Ipsum available,
+                but the have suffered alteration in some form, by injected
+                humour, oris ut. In interdum sem quis congue accumsan
+                ellentesque convallis eros tiam ultricies finibus. . Nunc ac sem
+                sit amet purus luctus.
+              </p>
+              <div class="founder">
+                <div class="founder-img">
+                  <img src="assets/img/reviewr-img.jpg" alt="" />
+                </div>
+                <div class="founder-info">
+                  <div class="founder-name d-flex">
+                    <p class="name">Dr.Soratn Barata -</p>
+                    <p class="founder-text d-flex">Founder</p>
+                  </div>
+                  <div class="stars">
+                    <ul class="d-flex">
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star gray"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="quote">
+                <span class="edge"
+                  ><i class="fa-solid fa-quote-right"></i
+                ></span>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="col-lg-6 col-md-12 col-12">
+                <div class="pink-card">
+                  <div class="card_header d-flex justify-content-center">
+                    <span
+                      class="hearth-icon d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-heart-pulse"></i>
+                    </span>
+                  </div>
+                  <div class="card_body">
+                    <h3 class="card-title text-center">Medica For Service</h3>
+                    <p class="card-text text-center">
+                      Bulding need to sure there thing embarrassing the Bulding.
+                    </p>
+                    <a href="#" class="card-link">+ Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-12">
+                <div class="card">
+                  <p class="list-text d-flex">
+                    <span
+                      class="list-icon d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-square-check"></i
+                    ></span>
+                    We are many variation sorem this is that it has a
+                    more-or-less
+                  </p>
+                  <p class="list-text d-flex">
+                    <span
+                      class="list-icon d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-square-check"></i
+                    ></span>
+                    We are many variations norma by injected humour.
+                  </p>
+                  <p class="list-text d-flex">
+                    <span
+                      class="list-icon d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-solid fa-square-check"></i
+                    ></span>
+                    We are many variations medical by injected medical.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p class="detail-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page is when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters,
+            </p>
+            <p class="detail-text">
+              We is a long established fact that a reader will be distracted by
+              the readable content of a page is when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters,
+            </p>
+            <div class="comment-area">
+              <h3 class="comments-title">Comments(2)</h3>
+              <div class="main-comment d-flex">
+                <div class="img-container d-flex">
+                  <img src="assets/img/comment.png" alt="" />
+                </div>
+                <div class="text-area">
+                  <h3 class="comment-title">Dr. Roratn Bara</h3>
+                  <p class="comment-text">
+                    Lorem ipsum is simply free textdolor sit amet, consectetur
+                    notted adipisicing elit sed do iusmod tempor incididu.
+                  </p>
+                  <div class="comment-bottom">
+                    <p class="comment-date">November 16, 2018 at 4:31 am</p>
+                    <a href="#" class="replay">Replay</a>
+                  </div>
+                </div>
+              </div>
+              <div class="other-comment d-flex">
+                <div class="img-container d-flex">
+                  <img src="assets/img/comment02.png" alt="" />
+                </div>
+                <div class="text-area">
+                  <h3 class="comment-title">Dr. Moratn Bola</h3>
+                  <p class="comment-text">
+                    Lorem ipsum is simply free textdolor sit amet, consectetur
+                    notted adipisicing elit sed do iusmod tempor incididu.
+                  </p>
+                  <div class="comment-bottom">
+                    <p class="comment-date">November 16, 2018 at 4:31 am</p>
+                    <a href="#" class="replay">Replay</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="appo-area">
+              <h3 class="appo-title">Make an Appointment</h3>
+              <div class="appo-form">
+                <div class="col-lg-6 col-md-12 col-12">
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Your Name"
+                  />
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                  <input
+                    class="form-control"
+                    type="email"
+                    placeholder="Your Email"
+                  />
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                  <input
+                    class="form-control"
+                    type="number"
+                    placeholder="Your Phone"
+                  />
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                  <select id="inputState" class="form-control">
+                    <option selected>Select Category</option>
+                    <option>Medical facilisis</option>
+                    <option>Hospital Meta-Services</option>
+                  </select>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Office Address"
+                  />
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                  <input
+                    class="form-control"
+                    type="text"
+                    placeholder="Select Date"
+                  />
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                  <button type="submit" class="btn pink_button">
+                    <span class="pink_dot"> </span>Contact Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="search-area">
+              <input type="text" class="search" placeholder="Search..." />
+              <a href="" class="button">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+              </a>
+            </div>
+            <div class="blue-card side-card">
+              <div class="blue-content">
+                <div class="card-icon">
+                  <span><i class="fa-solid fa-bed-pulse"></i></span>
+                </div>
+                <h3 class="card-title text-center">Medicine of Health</h3>
+                <p class="card-text text-center">
+                  <span><i class="fa-solid fa-chevron-right"></i></span>MEDICAL
+                  SURGERY SERVICE
+                </p>
+                <p class="card-text text-center">
+                  <span><i class="fa-solid fa-chevron-right"></i></span>Dental
+                  Best Services
+                </p>
+                <button class="btn pink_button">
+                  <span class="pink_dot"> </span>Read More
+                </button>
+              </div>
+              <div class="blue-img">
+                <img src="assets/img/bgshape02.png" alt="" />
+              </div>
+            </div>
+            <div class="recent-card side-card">
+              <h3 class="card-title">Recent Post</h3>
+              <div class="recent-cards">
+                <div class="col-lg-12 col-md-6 col-12">
+                  <div class="post d-flex">
+                    <div class="post-img">
+                      <img src="assets/img/post01.jpg" alt="" />
+                    </div>
+                    <div class="post-info">
+                      <p class="sm-info">
+                        <span class="icon"
+                          ><i class="fa-regular fa-calendar-days"></i
+                        ></span>
+                        Agu 10, 2021
+                      </p>
+                      <p class="post-text">We play chimney pot Chip bonne.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-6 col-12">
+                  <div class="post d-flex">
+                    <div class="post-img">
+                      <img src="assets/img/post02.jpg" alt="" />
+                    </div>
+                    <div class="post-info">
+                      <p class="sm-info">
+                        <span class="icon"
+                          ><i class="fa-regular fa-calendar-days"></i
+                        ></span>
+                        Agu 10, 2021
+                      </p>
+                      <p class="post-text">We play chimney pot Chip bonne.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 col-md-6 col-12">
+                  <div class="post d-flex">
+                    <div class="post-img">
+                      <img src="assets/img/post03.jpg" alt="" />
+                    </div>
+                    <div class="post-info">
+                      <p class="sm-info">
+                        <span class="icon"
+                          ><i class="fa-regular fa-calendar-days"></i
+                        ></span>
+                        Agu 10, 2021
+                      </p>
+                      <p class="post-text">We play chimney pot Chip bonne.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="category-card side-card">
+              <h3 class="card-title">Categories</h3>
+              <a href="#" class="catergory d-flex">
+                <span class="pink-arrow"
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+                Business
+                <p class="number">(08)</p>
+              </a>
+              <a href="#" class="catergory d-flex">
+                <span class="pink-arrow"
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+                Maintenance
+                <p class="number">(14)</p>
+              </a>
+              <a href="#" class="catergory d-flex">
+                <span class="pink-arrow"
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+                Professional
+                <p class="number">(12)</p>
+              </a>
+              <a href="#" class="catergory d-flex">
+                <span class="pink-arrow"
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+                Technology
+                <p class="number">(23)</p>
+              </a>
+              <a href="#" class="catergory d-flex">
+                <span class="pink-arrow"
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+                Single-Business
+                <p class="number">(17)</p>
+              </a>
+              <a href="#" class="catergory d-flex">
+                <span class="pink-arrow"
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></span>
+                Innovation
+                <p class="number">(22)</p>
+              </a>
+            </div>
+            <div class="tag-card side-card">
+              <h3 class="card-title">Tag</h3>
+              <ul class="tag-list">
+                <li class="tag">
+                  <a href="#">Design</a>
+                </li>
+                <li class="tag">
+                  <a href="#">Service</a>
+                </li>
+                <li class="tag">
+                  <a href="#">Top</a>
+                </li>
+                <li class="tag">
+                  <a href="#">Help</a>
+                </li>
+                <li class="tag">
+                  <a href="#">New</a>
+                </li>
+                <li class="tag">
+                  <a href="#">Best</a>
+                </li>
+                <li class="tag tag_bottom">
+                  <a href="#">Bruite</a>
+                </li>
+                <li class="tag tag_bottom">
+                  <a href="#">Sounds</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe py-5 d-flex align-items-center mt-5">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="mic position-absolute">
+            <div class="mic d-none d-lg-block">
+              <img src="assets/img/mice.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 d-flex justify-content-center">
+            <div class="sub-text">
+              <h2>Subcribe To Our Newsletter</h2>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <form class="d-flex">
+              <input
+                type="text"
+                class="form-control position-relative px-5 py-0"
+                placeholder="Your email address"
+              />
+              <button class="btn position-absolute text-white">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container pt-5 pb-3 text-white">
+        <div class="row pb-5">
+          <div class="col-lg-4 col-md-6">
+            <img src="assets/img/footer-logo.png" alt="Logo" class="mb-5" />
+            <p class="footer-text mb-5">
+              Louasi architecto beatae vitae dicta Nemo enim ipsam quia voluptas
+              sit odit aut fugit this beatae vitae dici Nemo enim ipsam to...
+            </p>
+            <div class="logos d-flex">
+              <span
+                class="icon bg-white d-flex align-items-center justify-content-center mr-2"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </span>
+              <span
+                class="icon bg-white d-flex align-items-center justify-content-center mr-2"
+              >
+                <i class="fa-brands fa-pinterest-p"></i>
+              </span>
+              <span
+                class="icon bg-white d-flex align-items-center justify-content-center mr-2"
+              >
+                <i class="fa-brands fa-instagram fa-lg"></i>
+              </span>
+              <span
+                class="icon bg-white d-flex align-items-center justify-content-center mr-2"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h3 class="mb-4 pb-2">Service</h3>
+            <ul>
+              <li class="mb-3">
+                <a href="#">Why choose us</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Our solutions</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Partners</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Core values</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Our projects</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h3 class="mb-4 pb-2">Quick Link</h3>
+            <ul>
+              <li class="mb-3">
+                <a href="#">Residents</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Business</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Online Service</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Visiting</a>
+              </li>
+              <li class="mb-3">
+                <a href="#">Employment</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="day">
+              <h3 class="mb-4 pb-2">Opening Schedule</h3>
+              <ul>
+                <li class="mb-3">
+                  <a>Sunday ---------- 08.00 - 10.00</a>
+                </li>
+                <li class="mb-3">
+                  <a>Monday ---------- 08.00 - 10.00</a>
+                </li>
+                <li class="mb-3">
+                  <a>Tuesday ---------- 08.00 - 10.00</a>
+                </li>
+                <li class="mb-3">
+                  <a>Wednesday ---------- 08.00 - 10.00</a>
+                </li>
+                <li class="mb-3">
+                  <a>Tuesday ---------- 08.00 - 10.00</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-4 top-border">
+          <div class="col-lg-6 col-md-12 d-flex bottom align-items-center">
+            <p>Copyright © 2023 Mediba All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="links">
+              <ul class="d-flex bottom-end">
+                <li class="mr-3">
+                  <a href="#"> Home </a>
+                </li>
+                <li class="mr-3">
+                  <a href="#"> Cases </a>
+                </li>
+                <li class="mr-3">
+                  <a href="#"> About </a>
+                </li>
+                <li class="mr-3">
+                  <a href="#"> Legal </a>
+                </li>
+                <li>
+                  <a href="#"> Privacy & Policy </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
